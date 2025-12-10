@@ -1,0 +1,13 @@
+
+
+# Python virtual environment (critical to ignore)
+.venv/
+venv/
+env/
+
+# Python compiled files
+__pycache__/
+*.pyc
+
+# Docker ignores (since we don't want to track built images)
+.dockerignore
